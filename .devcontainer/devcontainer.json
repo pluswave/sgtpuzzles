@@ -1,0 +1,13 @@
+{
+  "name": "Android Build Environment",
+  "image": "mcr.microsoft.com/devcontainers/java:17",
+  "features": {
+    "ghcr.io/devcontainers/features/android:1": {
+      "platforms": "android-33",
+      "buildTools": "33.0.2",
+      "ndk": "25.1.8937393",
+      "cmake": "3.22.1"
+    }
+  }
+}
+
