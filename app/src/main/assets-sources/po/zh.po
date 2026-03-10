@@ -1,0 +1,800 @@
+# Documentation for Simon Tatham's Portable Puzzle Collection:
+# translation into Chinese (Simplified).
+# Copyright (C) 2025 sgtpuzzles Chinese translation team.
+# This file is distributed under the same license as the English
+# documentation.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: sgt-puzzles\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-01 08:19+0100\n"
+"PO-Revision-Date: 2025-03-10\n"
+"Last-Translator: Chinese Translation Team\n"
+"Language-Team: zh-CN <zh-CN@example.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#. type: Plain text
+#: puzzles.but:2
+msgid "Simon Tatham's Portable Puzzle Collection"
+msgstr "Simon Tatham 便携式谜题合集"
+
+#. type: Plain text
+#: puzzles.but:5
+msgid "\\cfg{winhelp-filename}{puzzles.hlp}"
+msgstr "\\cfg{winhelp-filename}{puzzles.hlp}"
+
+#. type: Plain text
+#: puzzles.but:5
+msgid "\\cfg{winhelp-contents-titlepage}{Contents}"
+msgstr "\\cfg{winhelp-contents-titlepage}{内容}"
+
+#. type: Plain text
+#: puzzles.but:7
+msgid "\\cfg{text-filename}{puzzles.txt}"
+msgstr "\\cfg{text-filename}{puzzles.txt}"
+
+#. type: Plain text
+#: puzzles.but:15
+msgid "\\cfg{html-contents-filename}{index.html}"
+msgstr "\\cfg{html-contents-filename}{index.html}"
+
+#. type: Plain text
+#: puzzles.but:15
+msgid "\\cfg{html-template-filename}{%k.html}"
+msgstr "\\cfg{html-template-filename}{%k.html}"
+
+#. type: Plain text
+#: puzzles.but:15
+msgid "\\cfg{html-index-filename}{docindex.html}"
+msgstr "\\cfg{html-index-filename}{docindex.html}"
+
+#. type: Plain text
+#: puzzles.but:15
+msgid "\\cfg{html-leaf-level}{1}"
+msgstr "\\cfg{html-leaf-level}{1}"
+
+#. type: Plain text
+#: puzzles.but:15
+msgid "\\cfg{html-contents-depth-0}{1}"
+msgstr "\\cfg{html-contents-depth-0}{1}"
+
+#. type: Plain text
+#: puzzles.but:15
+msgid "\\cfg{html-contents-depth-1}{2}"
+msgstr "\\cfg{html-contents-depth-1}{2}"
+
+#. type: Plain text
+#: puzzles.but:15
+msgid "\\cfg{html-leaf-contains-contents}{true}"
+msgstr "\\cfg{html-leaf-contains-contents}{true}"
+
+#. type: Plain text
+#: puzzles.but:21
+msgid "\\cfg{chm-filename}{puzzles.chm}"
+msgstr "\\cfg{chm-filename}{puzzles.chm}"
+
+#. type: Plain text
+#: puzzles.but:21
+msgid "\\cfg{chm-contents-filename}{index.html}"
+msgstr "\\cfg{chm-contents-filename}{index.html}"
+
+#. type: Plain text
+#: puzzles.but:21
+msgid "\\cfg{chm-template-filename}{%k.html}"
+msgstr "\\cfg{chm-template-filename}{%k.html}"
+
+#. type: Plain text
+#: puzzles.but:21
+msgid ""
+"\\cfg{chm-head-end}{<link rel=\"stylesheet\" type=\"text/css\" href=\"chm."
+"css\">}"
+msgstr ""
+
+#. type: Plain text
+#: puzzles.but:21
+msgid "\\cfg{chm-extra-file}{chm.css}"
+msgstr "\\cfg{chm-extra-file}{chm.css}"
+
+#. type: Plain text
+#: puzzles.but:23
+msgid "\\cfg{info-filename}{puzzles.info}"
+msgstr "\\cfg{info-filename}{puzzles.info}"
+
+#. type: Plain text
+#: puzzles.but:26
+msgid "\\cfg{ps-filename}{puzzles.ps}"
+msgstr "\\cfg{ps-filename}{puzzles.ps}"
+
+#. type: Plain text
+#: puzzles.but:26
+msgid "\\cfg{pdf-filename}{puzzles.pdf}"
+msgstr "\\cfg{pdf-filename}{puzzles.pdf}"
+
+#. type: e{#1}
+#: puzzles.but:33
+msgid ""
+"On Android, please touch for left click and long press for right click. Also "
+"note that where this manual refers to pressing a letter on the keyboard, the "
+"Android version has icons at the bottom of the screen instead (Control and "
+"Shift are not available).  There is also an optional \"Night mode\" which "
+"uses darker colours in low light."
+msgstr ""
+"在 Android 上，请触摸进行左键单击，长按进行右键单击。另请注意，"
+"本手册中提到的在键盘上按下字母的操作，在 Android 版本中由屏幕底部的"
+"图标代替（Control 和 Shift 不可用）。还有一个可选的"夜间模式"，"
+"在低光线下使用更深的颜色。"
+
+#. type: define
+#: puzzles.but:34
+#, no-wrap
+msgid "\\u00D7{x}"
+msgstr "\\u00D7{x}"
+
+#. type: define
+#: puzzles.but:36
+#, no-wrap
+msgid "\\u2013{-}"
+msgstr "\\u2013{-}"
+
+#. type: define
+#: puzzles.but:38
+#, no-wrap
+msgid "\\u00D7{*}"
+msgstr "\\u00D7{*}"
+
+#. type: define
+#: puzzles.but:40
+#, no-wrap
+msgid "\\u00F7{/}"
+msgstr "\\u00F7{/}"
+
+#. type: define
+#: puzzles.but:42
+#, no-wrap
+msgid "\\u2212{-}"
+msgstr "\\u2212{-}"
+
+#. type: Plain text
+#: puzzles.but:45
+msgid "This is a collection of small one-player puzzle games."
+msgstr "这是一系列小型单人谜题游戏合集。"
+
+#. type: Plain text
+#: puzzles.but:49
+msgid ""
+"This manual is copyright 2004-2024 Simon Tatham. All rights reserved. You "
+"may distribute this documentation under the MIT licence.  See \\k{licence} "
+"for the licence text in full."
+msgstr ""
+"本手册的版权归 Simon Tatham 所有（2004-2024）。保留所有权利。"
+"您可以根据 MIT 许可证分发此文档。查看 \\k{licence} 获取完整许可文本。"
+
+#. type: Plain text
+#: puzzles.but:52
+msgid ""
+"\\cfg{html-head-end}{<style type=\"text/css\">body \\{ word-wrap: break-"
+"word; \\} body.night \\{ color: #dddddd; background: #000000; \\} body.night "
+"a:link \\{ color: #8888ff; \\} body.night a:visited \\{ color: #cc88ff; \\}</"
+"style>}"
+msgstr ""
+
+#. type: Plain text
+#: puzzles.but:52
+msgid ""
+"\\cfg{html-local-head}{<meta name=\"AppleTitle\" content=\"Puzzles Help\">}"
+msgstr ""
+"\\cfg{html-local-head}{<meta name=\"AppleTitle\" content=\"Puzzles Help\">}"
+
+#. type: Plain text
+#: puzzles.but:54
+msgid "Introduction"
+msgstr "简介"
+
+#. type: Plain text
+#: puzzles.but:69
+msgid ""
+"I wrote this collection because I thought there should be more small desktop "
+"toys available: little games you can pop up in a window and play for two or "
+"three minutes while you take a break from whatever else you were doing. And "
+"I was also annoyed that every time I found a good game on (say) \\i{Unix}, "
+"it wasn't available the next time I was sitting at a \\i{Windows} machine, "
+"or vice versa; so I arranged that everything in my personal puzzle "
+"collection will happily run on both, and have more recently done a port to "
+"\\i{Mac OS X} as well. When I find (or perhaps invent) further puzzle games "
+"that I like, they'll be added to this collection and will immediately be "
+"available on both platforms. And if anyone feels like writing any other "
+"front ends \\dash PocketPC, Mac OS pre-10, or whatever it might be \\dash "
+"then all the games in this framework will immediately become available on "
+"another platform as well."
+msgstr ""
+"我编写这个合集是因为我认为应该有更多的小型桌面游戏可用："
+"您可以在窗口中弹出并玩两三分钟的小游戏，同时从您正在做的其他事情中休息一下。"
+"而且，我也很恼火，每次我在（比如说）\\i{Unix} 上找到一个好游戏时，"
+"下次我坐在 \\i{Windows} 机器上时它就不可用了，或者反之亦然；"
+"因此，我安排了我个人谜题合集中的所有内容都能在两个平台上愉快运行，"
+"并且最近也移植到了 \\i{Mac OS X}。当我找到（或者可能发明）"
+"更多我喜欢的谜题游戏时，它们将被添加到此合集，并立即在两个平台上可用。"
+"如果有人想编写任何其他前端 \\dash PocketPC、Mac OS pre-10，或者其他任何东西 \\dash "
+"那么这个框架中的所有游戏也将立即在另一个平台上可用。"
+
+#. type: Plain text
+#: puzzles.but:75
+msgid ""
+"The actual games in this collection were mostly not my invention; they are "
+"re-implementations of existing game concepts within my portable puzzle "
+"framework. I do not claim credit, in general, for inventing the rules of any "
+"of these puzzles. (I don't even claim authorship of all the code; some of "
+"the puzzles have been submitted by other authors.)"
+msgstr ""
+"此合集中的实际游戏大多不是我的发明；它们是我便携式谜题框架内"
+"现有游戏概念的重新实现。一般来说，我不声称发明任何这些谜题的规则的功劳。"
+"（我甚至不声称所有代码的作者身份；一些谜题是由其他作者提交的。）"
+
+#. type: Plain text
+#: puzzles.but:85
+msgid ""
+"\\c{Patches} are welcome. In particular if you would like to write a new "
+"front end (to make all these games run on another platform), or a new game."
+msgstr ""
+"欢迎 \\c{补丁}。特别是如果您想编写一个新的前端（以使所有这些游戏"
+"在另一个平台上运行），或者一个新游戏。"
+
+#. type: ii{#1}
+#: puzzles.but:95
+msgid "Common features"
+msgstr "常见功能"
+
+#. type: Plain text
+#: puzzles.but:97
+msgid "This chapter describes features that are common to all of the games."
+msgstr "本章描述了所有游戏共有的功能。"
+
+#. type: Plain text
+#: puzzles.but:99
+msgid "\\I{controls}Common actions"
+msgstr "\\I{controls}常见操作"
+
+#. type: Plain text
+#: puzzles.but:101 puzzles.but:486 puzzles.but:612 puzzles.but:664
+#: puzzles.but:725 puzzles.but:783 puzzles.but:860 puzzles.but:938
+#: puzzles.but:971 puzzles.but:1057 puzzles.but:1167 puzzles.but:1268
+#: puzzles.but:1345 puzzles.but:1405 puzzles.but:1507 puzzles.but:1564
+#: puzzles.but:1627 puzzles.but:1740 puzzles.but:1832 puzzles.but:1917
+#: puzzles.but:1999 puzzles.but:2107 puzzles.but:2209 puzzles.but:2270
+#: puzzles.but:2344 puzzles.but:2506 puzzles.but:2602 puzzles.but:2675
+#: puzzles.but:2750 puzzles.but:2845 puzzles.but:2943 puzzles.but:3004
+#: puzzles.but:3082 puzzles.but:3179 puzzles.but:3248 puzzles.but:3346
+#: puzzles.but:3431 puzzles.but:3486 puzzles.but:3548 puzzles.but:3665
+msgid "\\androidmouse"
+msgstr "\\androidmouse"
+
+#. type: Plain text
+#: puzzles.but:105
+msgid ""
+"These actions are all available from the \\I{Game menu}\\q{Game} menu and "
+"via \\I{keys}keyboard shortcuts, in addition to any game-specific actions."
+msgstr ""
+"这些操作都可以从 \\I{Game menu}\\q{Game} 菜单和通过 "
+"\\I{keys}键盘快捷键获得，除了任何特定于游戏的操作。"
+
+#. type: Plain text
+#: puzzles.but:109
+msgid ""
+"(On \\i{Mac OS X}, to conform with local user interface standards, these "
+"actions are situated on the \\I{File menu}\\q{File} and \\I{Edit "
+"menu}\\q{Edit} menus instead.)"
+msgstr ""
+"（在 \\i{Mac OS X} 上，为了符合本地用户界面标准，这些操作"
+"位于 \\I{File menu}\\q{File} 和 \\I{Edit menu}\\q{Edit} 菜单上。）"
+
+#. type: Plain text
+#: puzzles.but:111
+msgid "\\ii\\e{New game} (\\q{N}, Ctrl+\\q{N})"
+msgstr "\\ii\\e{新游戏}（\\q{N}，Ctrl+\\q{N}）"
+
+#. type: Plain text
+#: puzzles.but:113
+msgid "Starts a new game, with a random initial state."
+msgstr "开始一个新游戏，具有随机的初始状态。"
+
+#. type: Plain text
+#: puzzles.but:115
+msgid "\\ii\\e{Restart game}"
+msgstr "\\ii\\e{重新开始游戏}"
+
+#. type: Plain text
+#: puzzles.but:117
+msgid "Resets the current game to its initial state. (This can be undone.)"
+msgstr "将当前游戏重置为其初始状态。（这可以撤销。）"
+
+#. type: Plain text
+#: puzzles.but:119
+msgid "\\ii\\e{Load}"
+msgstr "\\ii\\e{加载}"
+
+#. type: Plain text
+#: puzzles.but:121
+msgid "Loads a saved game from a file on disk."
+msgstr "从磁盘上的文件加载已保存的游戏。"
+
+#. type: Plain text
+#: puzzles.but:123
+msgid "\\ii\\e{Save}"
+msgstr "\\ii\\e{保存}"
+
+#. type: Plain text
+#: puzzles.but:125
+msgid "Saves the current state of your game to a file on disk."
+msgstr "将您游戏的当前状态保存到磁盘上的文件。"
+
+#. type: Plain text
+#: puzzles.but:133
+msgid ""
+"The Load and Save operations preserve your entire game history (so you can "
+"save, reload, and still Undo and Redo things you had done before saving)."
+msgstr ""
+"加载和保存操作保留您的整个游戏历史记录（因此您可以保存、重新加载，"
+"并仍然撤销和重做您在保存之前所做的操作）。"
+
+#. type: Plain text
+#: puzzles.but:135
+msgid "\\I{printing, on Windows}\\e{Print}"
+msgstr "\\I{打印，在 Windows 上}\\e{打印}"
+
+#. type: Plain text
+#: puzzles.but:142
+msgid ""
+"Where supported (currently only on Windows), brings up a dialog allowing you "
+"to print an arbitrary number of puzzles randomly generated from the current "
+"parameters, optionally including the current puzzle. (Only for puzzles which "
+"make sense to print, of course \\dash it's hard to think of a sensible "
+"printable representation of Fifteen!)"
+msgstr ""
+"在支持的地方（目前仅在 Windows 上），会弹出一个对话框，允许您"
+"打印从当前参数随机生成的任意数量的谜题，可选地包括当前谜题。"
+"（当然，仅适用于值得打印的谜题 \\dash 很难想到一个可打印的 Fifteen 的合理表示！）"
+
+#. type: Plain text
+#: puzzles.but:144
+msgid "\\ii\\e{Undo} (\\q{U}, Ctrl+\\q{Z}, Ctrl+\\q{_}, \\q{*})"
+msgstr "\\ii\\e{撤销}（\\q{U}，Ctrl+\\q{Z}，Ctrl+\\q{_}，\\q{*}）"
+
+#. type: Plain text
+#: puzzles.but:147
+msgid ""
+"Undoes a single move. (You can undo moves back to the start of the session.)"
+msgstr ""
+"撤销单个操作。（您可以撤销操作直到会话开始。）"
+
+#. type: Plain text
+#: puzzles.but:149
+msgid "\\ii\\e{Redo} (\\q{R}, Ctrl+\\q{R}, \\q{#})"
+msgstr "\\ii\\e{重做}（\\q{R}，Ctrl+\\q{R}，\\q{#}）"
+
+#. type: Plain text
+#: puzzles.but:151
+msgid "Redoes a previously undone move."
+msgstr "重做之前撤销的操作。"
+
+#. type: Plain text
+#: puzzles.but:153
+msgid "\\ii\\e{Copy}"
+msgstr "\\ii\\e{复制}"
+
+#. type: Plain text
+#: puzzles.but:158
+msgid ""
+"Copies the current state of your game to the clipboard in text format, so "
+"that you can paste it into (say) an e-mail client or a web message board if "
+"you're discussing the game with someone else. (Not all games support this "
+"feature.)"
+msgstr ""
+"将您游戏的当前状态以文本格式复制到剪贴板，以便您可以将其"
+"粘贴到（比如说）电子邮件客户端或网络留言板，如果您正在与别人讨论游戏的话。"
+"（并非所有游戏都支持此功能。）"
+
+#. type: Plain text
+#: puzzles.but:160
+msgid "\\ii\\e{Solve}"
+msgstr "\\ii\\e{求解}"
+
+#. type: Plain text
+#: puzzles.but:170
+msgid ""
+"Transforms the puzzle instantly into its solved state. For some games (Cube) "
+"this feature is not supported at all because it is of no particular use. For "
+"other games (such as Pattern), the solved state can be used to give you "
+"information, if you can't see how a solution can exist at all or you want to "
+"know where you made a mistake. For still other games (such as Sixteen), "
+"automatic solution tells you nothing about how to \\e{get} to the solution, "
+"but it does provide a useful way to get there quickly so that you can "
+"experiment with set-piece moves and transformations."
+msgstr ""
+"立即将谜题转换为其已解决状态。对于某些游戏（Cube），此功能"
+"根本不受支持，因为它没有特别的用途。对于其他游戏（如 Pattern），"
+"如果根本看不出如何存在解决方案，或者您想知道在哪里犯了错误，"
+"已解决状态可以为您提供信息。对于还有其他游戏（如 Sixteen），"
+"自动解决方案不会告诉您如何 \\e{到达}解决方案，但它确实提供了一种"
+"快速到达那里以便您可以尝试固定棋步和转换的有用方法。"
+
+#. type: Plain text
+#: puzzles.but:172
+msgid "\\I{types}Type"
+msgstr "\\I{types}类型"
+
+#. type: Plain text
+#: puzzles.but:174
+msgid "\\ii\\e{Type} (\\q{T})"
+msgstr "\\ii\\e{类型}（\\q{T}）"
+
+#. type: Plain text
+#: puzzles.but:176
+msgid ""
+"Pops up a dialog box allowing you to change the parameters with which the "
+"game is generated (for example the grid size, or the difficulty level).  The "
+"\\e{Game ID} and \\e{Seed} values are also displayed in this dialog, so "
+"you can copy them if you want to send a game to someone else."
+msgstr ""
+"弹出一个对话框，允许您更改生成游戏的参数（例如网格大小或难度级别）。"
+"\\e{游戏 ID} 和 \\e{种子} 值也显示在此对话框中，因此如果您想将"
+"游戏发送给其他人，可以复制它们。"
+
+#. type: Plain text
+#: puzzles.but:185
+msgid ""
+"Some games allow you to change the game parameters using the keyboard, via "
+"the \\q{Type} menu item and a series of dialog boxes."
+msgstr ""
+"某些游戏允许您使用键盘通过 \\q{类型} 菜单项和一系列对话框"
+"更改游戏参数。"
+
+#. type: Plain text
+#: puzzles.but:187
+msgid "In these cases, there is also a \\q{Custom} menu item."
+msgstr "在这些情况下，还有一个 \\q{自定义} 菜单项。"
+
+#. type: Plain text
+#: puzzles.but:189
+msgid ""
+"This brings up a dialog box containing a text entry field in which you can type "
+"in game parameters exactly as you would type them on the command line, or paste in "
+"a \\e{Game ID} or \\e{Seed} value copied from another game."
+msgstr ""
+"这将弹出一个对话框，其中包含一个文本输入字段，您可以在其中输入游戏参数，"
+"就像您在命令行上输入它们一样，或者粘贴从另一个游戏复制的 "
+"\\e{游戏 ID} 或 \\e{种子} 值。"
+
+#. type: Plain text
+#: puzzles.but:192
+msgid ""
+"See the \\c{manual page} for details of the parameters for each game, "
+"and the \\c{game IDs} section for more detail about the precise format "
+"and purpose of game IDs."
+msgstr ""
+"有关每个游戏的参数详细信息，请参阅 \\c{手册页}，有关游戏 ID 的"
+"精确格式和目的的更多详细信息，请参阅 \\c{游戏 ID} 部分。"
+
+#. type: Plain text
+#: puzzles.but:200
+msgid "Game IDs"
+msgstr "游戏 ID"
+
+#. type: Plain text
+#: puzzles.but:202
+msgid ""
+"The \\e{Type} dialog box for each game displays a text string called the "
+"\\e{Game ID}. This text string uniquely identifies a particular game "
+"instance; you can use it to communicate a particular puzzle to a friend."
+msgstr ""
+"每个游戏的 \\e{类型} 对话框显示一个称为 \\e{游戏 ID} 的文本字符串。"
+"此文本字符串唯一标识特定的游戏实例；您可以使用它向朋友传达特定的谜题。"
+
+#. type: Plain text
+#: puzzles.but:207
+msgid ""
+"A game ID is generated from the parameters of the game (size, shape, "
+"difficulty, and so on)."
+msgstr ""
+"游戏 ID 是从游戏的参数（大小、形状、难度等）生成的。"
+
+#. type: Plain text
+#: puzzles.but:209
+msgid ""
+"Conversely, given a Game ID, the game will generate the exact puzzle "
+"that was originally created using it."
+msgstr ""
+"相反，给定游戏 ID，游戏将生成最初使用它创建的确切谜题。"
+
+#. type: Plain text
+#: puzzles.but:211
+msgid ""
+"So you can use this feature to send a particular puzzle to a friend, or "
+"record a particularly good one and come back to it later.  It also enables you "
+"to report puzzles that are unsolvable or otherwise buggy."
+msgstr ""
+"因此，您可以使用此功能将特定的谜题发送给朋友，或者记录一个特别好"
+"的谜题并在以后返回。它还使您能够报告不可解决或有其他错误的谜题。"
+
+#. type: Plain text
+#: puzzles.but:218
+msgid ""
+"(Note: the Game ID is not guaranteed to be the same across different "
+"versions of the game. If you're passing puzzle specifications between people "
+"who have different versions of the software, you should also exchange a \\e{Seed} "
+"value, which is more stable.)"
+msgstr ""
+"（注意：游戏 ID 不保证在游戏的不同版本中相同。如果您在拥有不同"
+"软件版本的人员之间传递谜题规范，您还应该交换一个 \\e{种子} 值，"
+"该值更稳定。）"
+
+#. type: Plain text
+#: puzzles.but:223
+msgid "Seeds"
+msgstr "种子"
+
+#. type: Plain text
+#: puzzles.but:225
+msgid ""
+"The \\e{Type} dialog box for each game also displays a text string called the "
+"\\e{Seed}.  This is a random number generated when the game is created."
+msgstr ""
+"每个游戏的 \\e{类型} 对话框还显示一个称为 \\e{种子} 的文本字符串。"
+"这是创建游戏时生成的随机数。"
+
+#. type: Plain text
+#: puzzles.but:228
+msgid ""
+"The seed value can be used to reproduce exactly the same set of puzzles, "
+"perhaps by different people at different times."
+msgstr ""
+"种子值可用于重现完全相同的谜题集，可能由不同人在不同时间重现。"
+
+#. type: Plain text
+#: puzzles.but:231
+msgid ""
+"If you type a seed value into the \\e{Custom} game parameter dialog, the "
+"game will generate exactly the same puzzles it would have generated if it had "
+"created that seed value itself at random."
+msgstr ""
+"如果您在 \\e{自定义} 游戏参数对话框中输入种子值，游戏将生成完全相同的"
+"谜题，就像它自己随机创建该种子值一样。"
+
+#. type: Plain text
+#: puzzles.but:236
+msgid ""
+"Game IDs include a seed value within them. However, the seed value is "
+"more stable across different versions of the game, and it is the seed that "
+"should be used if you want to communicate a puzzle set to someone else."
+msgstr ""
+"游戏 ID 在其中包含一个种子值。但是，种子值在游戏的不同版本中更稳定，"
+"如果您想向其他人传达谜题集，应该使用的是种子。"
+
+#. type: Plain text
+#: puzzles.but:244
+msgid "The \\e{Type} menu also contains game-specific configuration options."
+msgstr "\\e{类型} 菜单还包含特定于游戏的配置选项。"
+
+#. type: Plain text
+#: puzzles.but:246
+msgid ""
+"For example, \\i{Black Box} has an option to control whether the "
+"solution to the puzzle is revealed when it is finished, and whether to "
+"display a count of how many balls have been correctly or incorrectly placed."
+msgstr ""
+"例如，\\i{Black Box} 有一个选项可以控制在谜题完成时是否揭示解决方案，"
+"以及是否显示正确或错误放置的球数的计数。"
+
+#. type: Plain text
+#: puzzles.but:253
+msgid ""
+"These options are described in the chapter for each individual game, under the "
+"heading \\i{Configuration options} or similar."
+msgstr ""
+"这些选项在各个游戏的章节中描述，位于标题 \\i{配置选项} 或类似标题下。"
+
+#. type: h3
+#: puzzles.but:258
+msgid "Common actions"
+msgstr "常见操作"
+
+#. type: Plain text
+#: puzzles.but:260
+msgid ""
+"These actions are available in all of the games. They are all available "
+"from the \\I{Game menu}\\q{Game} menu."
+msgstr ""
+"这些操作在所有游戏中都可用。它们都可以从 "
+"\\I{Game menu}\\q{Game} 菜单获得。"
+
+#. type: Plain text
+#: puzzles.but:265
+msgid "\\I{newgame,keys}\\c{New game}"
+msgstr "\\I{newgame,keys}\\c{新游戏}"
+
+#. type: Plain text
+#: puzzles.but:267
+msgid ""
+"Starts a new game. By default, the new game will have random parameters. "
+"You can also start a new game by pressing one of the numbers on the \\e{Type} "
+"menu, which will generate a game of that difficulty. You can also start a "
+"game from a Game ID or Seed copied from elsewhere, via the \\e{Custom} "
+"option."
+msgstr ""
+"开始一个新游戏。默认情况下，新游戏将具有随机参数。您还可以通过按"
+"\\e{类型} 菜单上的数字之一开始一个新游戏，这将生成该难度的游戏。"
+"您还可以通过 \\e{自定义} 选项从别处复制的游戏 ID 或种子开始游戏。"
+
+#. type: Plain text
+#: puzzles.but:283
+msgid "\\I{restartgame,keys}\\c{Restart game}"
+msgstr "\\I{restartgame,keys}\\c{重新开始游戏}"
+
+#. type: Plain text
+#: puzzles.but:285
+msgid "Resets the current puzzle to its initial state."
+msgstr "将当前谜题重置为其初始状态。"
+
+#. type: Plain text
+#: puzzles.but:287
+msgid "\\I{specific}\\i{Black Box}: \\c{Verify guesses}"
+msgstr "\\I{specific}\\i{Black Box}：\\c{验证猜测}"
+
+#. type: Plain text
+#: puzzles.but:289
+msgid "Check whether the marked balls are correctly placed."
+msgstr "检查标记的球是否正确放置。"
+
+#. type: Plain text
+#: puzzles.but:291
+msgid "\\I{loadgame,keys}\\c{Load}"
+msgstr "\\I{loadgame,keys}\\c{加载}"
+
+#. type: Plain text
+#: puzzles.but:293
+msgid "Loads a saved game from a file."
+msgstr "从文件加载已保存的游戏。"
+
+#. type: Plain text
+#: puzzles.but:295
+msgid "\\I{savegame,keys}\\c{Save}"
+msgstr "\\I{savegame,keys}\\c{保存}"
+
+#. type: Plain text
+#: puzzles.but:297
+msgid "Saves the current game to a file."
+msgstr "将当前游戏保存到文件。"
+
+#. type: Plain text
+#: puzzles.but:299
+msgid "\\I{undo,keys}\\c{Undo}"
+msgstr "\\I{undo,keys}\\c{撤销}"
+
+#. type: Plain text
+#: puzzles.but:301
+msgid "Undoes a single move."
+msgstr "撤销单个操作。"
+
+#. type: Plain text
+#: puzzles.but:303
+msgid "\\I{redo,keys}\\c{Redo}"
+msgstr "\\I{redo,keys}\\c{重做}"
+
+#. type: Plain text
+#: puzzles.but:305
+msgid "Redoes a previously undone move."
+msgstr "重做之前撤销的操作。"
+
+#. type: Plain text
+#: puzzles.but:307
+msgid "\\I{type,keys}\\c{Type}"
+msgstr "\\I{type,keys}\\c{类型}"
+
+#. type: Plain text
+#: puzzles.but:309
+msgid ""
+"Brings up the game configuration dialog, allowing you to change the "
+"difficulty or the game size, among other things."
+msgstr ""
+"弹出游戏配置对话框，允许您更改难度或游戏大小等。"
+
+#. type: Plain text
+#: puzzles.but:314
+msgid "\\I{solve,keys}\\c{Solve}"
+msgstr "\\I{solve,keys}\\c{求解}"
+
+#. type: Plain text
+#: puzzles.but:316
+msgid ""
+"Solves the current puzzle immediately, where possible. Some games (e.g. "
+"Fifteen) are effectively not solvable, so this menu item will be disabled."
+msgstr ""
+"立即解决当前谜题（可能的话）。某些游戏（如 Fifteen）实际上不可解决，"
+"因此此菜单项将被禁用。"
+
+#. type: Plain text
+#: puzzles.but:320
+msgid "Licence"
+msgstr "许可"
+
+#. type: Plain text
+#: puzzles.but:322
+msgid ""
+"The puzzles in this collection were mostly originally written by Simon Tatham.  "
+"Some puzzles (e.g. \\i{Mines}) have been written by other people.  A "
+"few puzzles contain code from other sources, including some code from \\i{Richard "
+"T. Guy} and the GNU documentation system."
+msgstr ""
+"此合集中的谜题大多最初由 Simon Tatham 编写。一些谜题（如 "
+"\\i{Mines}）由其他人编写。少数谜题包含来自其他来源的代码，"
+"包括来自 \\i{Richard T. Guy} 和 GNU 文档系统的一些代码。"
+
+#. type: Plain text
+#: puzzles.but:331
+msgid ""
+"In some cases, those authors have requested credit and a copyright notice, "
+"which is reproduced in the individual game descriptions below."
+msgstr ""
+"在某些情况下，这些作者要求署名和版权声明，这些在下面的各个游戏描述中转载。"
+
+#. type: Plain text
+#: puzzles.but:334
+msgid ""
+"I have therefore given this collection a unified licence. The MIT licence is a "
+"permissive non-copyleft free software licence which permits people to reuse "
+"the code for any purpose.  The full text of the licence is reproduced "
+"below."
+msgstr ""
+"因此，我为这个合集提供了一个统一的许可。MIT 许可证是一个宽松的"
+"非 copyleft 自由软件许可，允许人们将代码用于任何目的。"
+"许可的全文转载如下。"
+
+#. type: Plain text
+#: puzzles.but:340
+msgid ""
+"The individual puzzle games are all covered by the following licence text, "
+"which is the standard MIT licence text with minor formatting changes:"
+msgstr ""
+"各个谜题游戏均受以下许可文本的约束，这是标准的 MIT 许可证文本，"
+"并进行了轻微的格式更改："
+
+#. type: Plain text
+#: puzzles.but:342
+msgid ""
+"Permission is hereby granted, free of charge, to any person obtaining a "
+"copy of this software and associated documentation files (the \"Software\"), to "
+"deal in the Software without restriction, including without limitation the rights "
+"to use, copy, modify, merge, publish, distribute, sublicense, and/or sell "
+"copies of the Software, and to permit persons to whom the Software is "
+"furnished to do so, subject to the following conditions:"
+msgstr ""
+"特此免费授予任何获得本软件和相关文档文件（"软件"）副本的人，"
+"在不受限制的情况下处理软件，包括但不限于使用、复制、修改、合并、发布、分发、"
+"再许可和/或销售软件副本的权利，并允许向其提供软件的人员这样做，"
+"但须符合以下条件："
+
+#. type: Plain text
+#: puzzles.but:346
+msgid ""
+"The above copyright notice and this permission notice shall be included in all "
+"copies or substantial portions of the Software."
+msgstr ""
+"上述版权声明和本许可声明应包含在软件的所有副本或实质性部分中。"
+
+#. type: Plain text
+#: puzzles.but:348
+msgid ""
+"THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR "
+"IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR "
+"A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR "
+"COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, "
+"WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR "
+"IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+msgstr ""
+"软件按"原样"提供，不提供任何形式的明示或暗示保证，"
+"包括但不限于适销性、适用于特定用途和非侵权性的保证。在任何情况下，"
+"作者或版权持有者都不对任何索赔、损害或其他责任负责，无论是合同、侵权"
+"或其他方式的诉讼，由软件或软件的使用或其他交易引起、产生或与之相关。"
