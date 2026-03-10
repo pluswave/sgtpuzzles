@@ -70,14 +70,14 @@ android {
 
     buildTypes {
         debug {
-            versionNameSuffix = "-DEBUG-${idForSimon()}"
+            versionNameSuffix = "-DEBUG"
             ndk {
                 isDebuggable = true
                 debugSymbolLevel = "FULL"
             }
         }
         release {
-            versionNameSuffix = "-${timestamp(true)}-${idForSimon()}"
+            versionNameSuffix = "-${timestamp(true)}"
             isMinifyEnabled = true
             ndk {
                 isDebuggable = false

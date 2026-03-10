@@ -1,0 +1,114 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>点灯</title>
+<link rel="previous" href="slant.html">
+<link rel="ToC" href="index.html">
+<link rel="up" href="index.html">
+<link rel="index" href="docindex.html">
+<link rel="next" href="map.html">
+<style type="text/css">body { word-wrap: break-word; } body.night { color: #dddddd; background: #000000; } body.night a:link { color: #8888ff; } body.night a:visited { color: #cc88ff; }</style></head>
+<body>
+<p><a href="slant.html">上一页</a> | <a href="index.html">目录</a> | <a href="docindex.html">索引</a> | <a href="map.html">下一页</a></p>
+
+<ul>
+<li><a href="#C21">第21章：点灯</a>
+<ul>
+<li><a href="#S21.1">21.1 点灯控制</a></li>
+<li><a href="#S21.2">21.2 点灯参数</a></li>
+<li><a href="#S21.3">21.3 点灯用户偏好设置</a></li>
+</ul></li>
+</ul>
+<h1><a name="C21"></a>第21章：<a name="i0"></a>点灯</h1>
+<p>
+您有一个方格网格。有些填充为黑色；有些黑色方格上有编号。您的目标是在其中一些方格中放置灯泡来'点亮'所有空方格。
+</p>
+<p>
+每个灯泡照亮它所在的方格，以及与它在水平或垂直方向上的所有方格，除非黑色方格阻挡了路径。
+</p>
+<p>
+要赢得游戏，您必须满足以下条件：
+</p>
+<ul><li>
+所有非黑色方格都被点亮。
+</li>
+<li>
+没有灯被另一个灯点亮。
+</li>
+<li>
+所有编号的黑色方格正好有与其数字相邻的灯（在上、下和侧面的四个方格中）。
+</li>
+</ul>
+<p>
+未编号的黑色方格可以有任意数量的相邻灯。
+</p>
+<p>
+此谜题的功劳归于 <a name="i1"></a>Nikoli <a href="#p0">[9]</a>。
+</p>
+<p>
+点灯游戏由 James Harvey 贡献到此合集。
+</p>
+<p><a name="p0"></a>
+[9] <a href="https://www.nikoli.co.jp/en/puzzles/akari/"><code>https://www.nikoli.co.jp/en/puzzles/akari/</code></a>
+</p>
+<h2><a name="S21.1"></a>21.1 <a name="i2"></a>点灯控制</h2>
+<p>
+<em>在 Android 上，请点击进行左键点击，长按进行右键点击。另请注意，本手册中提到的键盘按键操作，在 Android 版本中使用屏幕底部的图标代替（不可用 Control 和 Shift）。还有一个可选的"夜间模式"，在光线较暗时使用较深的颜色。</em>
+</p>
+<p>
+在非黑色方格中左键点击将切换该方格中灯的存在。在非黑色方格中右键点击会切换一个标记以帮助解题；例如，它可以用来高亮显示无法点亮的方格。
+</p>
+<p>
+您不能在已标记的方格中放置灯，也不能在已点亮的方格中放置标记。
+</p>
+<p>
+游戏将以红色高亮显示明显的错误。被其他灯点亮的灯会以这种方式高亮显示，以及没有（或不能）在其旁边有正确数量灯的编号方格。
+</p>
+<p>
+因此，当所有非黑色方格都有黄色高亮并且没有红色灯时，网格就解开了。
+</p>
+<p>
+（<a href="common.html#S2.1">第2.1节</a>中描述的所有操作也可用。）
+</p>
+<h2><a name="S21.2"></a>21.2 <a name="i3"></a>点灯参数</h2>
+<p>
+这些参数可以从'类型'菜单上的'自定义...'选项中获得。
+</p>
+<dl><dt>
+<em>宽度</em>、<em>高度</em>
+</dt>
+<dd>
+以方格为单位的网格大小。
+</dd>
+<dt>
+<em>黑色方格百分比</em>
+</dt>
+<dd>
+网格中黑色方格的大致百分比。
+<p>
+这是一个提示而不是指令。如果网格生成器无法生成符合此精确规范的谜题，它将增加黑色方格的比例，直到可以生成。
+</p>
+
+</dd>
+<dt>
+<em>对称性</em>
+</dt>
+<dd>
+允许您指定网格中黑色方格所需的对称性。（这不会明显影响谜题的难度。）
+</dd>
+<dt>
+<em>难度</em>
+</dt>
+<dd>
+'简单'意味着谜题应该可以在没有回溯或猜测的情况下解决，'困难'意味着可能需要一些猜测。
+</dd>
+</dl>
+<h2><a name="S21.3"></a>21.3 <a name="i4"></a>点灯用户偏好设置</h2>
+<p>
+在支持用户偏好的平台上，'游戏'菜单上的'偏好设置'选项将让您配置当方格也被点亮时是否显示'这不是灯'标记。
+</p>
+
+<hr><address></address></body>
+</html>

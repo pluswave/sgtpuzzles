@@ -1,0 +1,124 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>网络连接</title>
+<link rel="previous" href="common.html">
+<link rel="ToC" href="index.html">
+<link rel="up" href="index.html">
+<link rel="index" href="docindex.html">
+<link rel="next" href="cube.html">
+<style type="text/css">body { word-wrap: break-word; } body.night { color: #dddddd; background: #000000; } body.night a:link { color: #8888ff; } body.night a:visited { color: #cc88ff; }</style></head>
+<body>
+<p><a href="common.html">上一页</a> | <a href="index.html">目录</a> | <a href="docindex.html">索引</a> | <a href="cube.html">下一页</a></p>
+
+<ul>
+<li><a href="#C3">第3章：网络连接</a>
+<ul>
+<li><a href="#S3.1">3.1 网络连接控制</a></li>
+<li><a href="#S3.2">3.2 网络连接参数</a></li>
+<li><a href="#S3.3">3.3 网络连接用户偏好设置</a></li>
+</ul></li>
+</ul>
+<h1><a name="C3"></a>第3章：<a name="i0"></a>网络连接</h1>
+<p>
+(<em>注意：</em>此游戏的<a name="i1"></a>Windows 版本被称为 <a name="i2"></a><code>NETGAME.EXE</code> 以避免与 Windows 自身的 <code>NET.EXE</code> 冲突。)
+</p>
+<p>
+我最初是在 Pavils Jurjans 编写的名为 <a name="i3"></a>FreeNet <a href="#p0">[1]</a> 的 Flash 游戏形式中看到这个游戏的；还有几个其他实现以 <a name="i4"></a>NetWalk 的名称存在。计算机通过连接网格中方格的中心来准备网络，然后通过随机旋转每个图块来打乱网络。您的工作是将其全部旋转回原位。成功的解决方案将是一个完全连接的网络，没有闭合回路。作为视觉辅助，连接到中间那个图块的所有图块都会高亮显示。
+</p>
+<p><a name="p0"></a>
+[1] <a href="http://www.jurjans.lv/stuff/net/FreeNet.htm"><code>http://www.jurjans.lv/stuff/net/FreeNet.htm</code></a>
+</p>
+<h2><a name="S3.1"></a>3.1 <a name="i5"></a>网络连接控制</h2>
+<p>
+<em>在 Android 上，请点击进行左键点击，长按进行右键点击。另请注意，本手册中提到的键盘按键操作，在 Android 版本中使用屏幕底部的图标代替（不可用 Control 和 Shift）。还有一个可选的"夜间模式"，在光线较暗时使用较深的颜色。</em>
+</p>
+<p>
+此游戏可以使用键盘或鼠标进行。控制方式为：
+</p>
+<dl><dt>
+<em>选择图块</em>：鼠标指针，方向键
+</dt>
+<dt>
+<em>逆时针旋转图块</em>：鼠标左键，'A' 键
+</dt>
+<dt>
+<em>顺时针旋转图块</em>：鼠标右键，'D' 键
+</dt>
+<dt>
+<em>旋转图块180度</em>：'F' 键
+</dt>
+<dt>
+<em>锁定（或解锁）图块</em>：鼠标中键，Shift+点击，'S' 键
+</dt>
+<dd>
+一旦您确定了图块的方向，就可以锁定它。您也可以再次解锁，但在锁定状态下您无法意外地旋转它。
+</dd>
+</dl>
+<p>
+以下控制并非完成游戏所必需，但可能有用：
+</p>
+<dl><dt>
+<em>移动网格</em>：Shift + 方向键
+</dt>
+<dd>
+在可环绕的网格上，您可以移动网格的原点，以便可以看到网格相对两侧的图块在一起。
+</dd>
+<dt>
+<em>移动中心</em>：Ctrl + 方向键
+</dt>
+<dd>
+您可以更改哪个图块用作高亮的源。（最终使用哪个图块并不重要，因为在正确的解决方案中，每个图块都将连接到每个其他图块，但在解谜的中间阶段这可能很有帮助。）
+</dd>
+<dt>
+<em>打乱图块</em>：'J' 键
+</dt>
+<dd>
+此键将所有未锁定的图块旋转到随机方向。
+</dd>
+</dl>
+<p>
+（<a href="common.html#S2.1">第2.1节</a>中描述的所有操作也可用。）
+</p>
+<h2><a name="S3.2"></a>3.2 <a name="i6"></a>网络连接参数</h2>
+<p>
+这些参数可以从'类型'菜单上的'自定义...'选项中获得。
+</p>
+<dl><dt>
+<em>宽度</em>、<em>高度</em>
+</dt>
+<dd>
+以图块为单位的网格大小。
+</dd>
+<dt>
+<em>墙壁环绕</em>
+</dt>
+<dd>
+如果选中，流量可以从左边缘传递到右边缘，从上到下，反之亦然。
+</dd>
+<dt>
+<em>障碍物概率</em>
+</dt>
+<dd>
+介于0.0和1.0之间的数字，控制是否在两个图块之间放置不可移动的障碍物以阻止它们之间的流动（数字越大，障碍物越多）。由于障碍物是不可移动的，它们充当解决方案的约束（即提示）。
+<p>
+网络连接中的网格生成已经过精心安排，使得障碍物与网格的其余部分独立。这意味着如果您记下用于生成当前谜题的随机种子（参见<a href="common.html#S2.2">第2.2节</a>），更改<em>障碍物概率</em>参数，然后重新输入相同的随机种子，您应该会看到完全相同的起始网格，唯一的变化是障碍物的数量。因此，如果您被特定的网格卡住需要提示，您可以启动另一个网络连接实例，设置相同的参数但更高的障碍物概率，然后从原始网络连接窗口输入游戏种子。
+</p>
+
+</dd>
+<dt>
+<em>确保唯一解</em>
+</dt>
+<dd>
+通常，网络连接将确保其呈现的谜题只有一个解决方案。具有模棱两可部分的谜题可能更困难和更微妙，因此如果您愿意，可以关闭此功能并冒着有模棱两可谜题的风险。（此外，找到<em>所有</em>可能的解决方案对于高级玩家来说可能是一个额外的挑战。）
+</dd>
+</dl>
+<h2><a name="S3.3"></a>3.3 <a name="i7"></a>网络连接用户偏好设置</h2>
+<p>
+在支持用户偏好的平台上，'游戏'菜单上的'偏好设置'选项将让您配置何时将回路高亮显示为错误。默认情况下，它们总是被高亮显示；通过更改此选项，您可以要求仅在形成回路的所有图块都被锁定时才高亮显示回路。这避免了回路高亮显示对您甚至尚未查看的格子可用推论的剧透。
+</p>
+
+<hr><address></address></body>
+</html>
